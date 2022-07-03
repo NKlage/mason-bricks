@@ -1,4 +1,4 @@
-part of '{{featureName.snakeCase()}}.cubit.dart';
+{{#useCubit}}part of '{{featureName.snakeCase()}}.cubit.dart';{{/useCubit}}{{^useCubit}}part of '{{featureName.snakeCase()}}.bloc.dart';{{/useCubit}}
 
 @immutable
 abstract class {{featureName.pascalCase()}}State {}

@@ -26,3 +26,8 @@ vars:
     description: your feature name
     default: new_feature
     prompt: what is your feature name?
+  useCubit:
+    type: boolean
+    description: use Cubit instead of BloC
+    default: true
+    prompt: use Cubit?

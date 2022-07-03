@@ -1,0 +1,4 @@
+part of '{{featureName.snakeCase()}}.bloc.dart';
+
+@immutable
+abstract class {{featureName.pascalCase()}}Event {}
