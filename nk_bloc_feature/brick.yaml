@@ -1,0 +1,19 @@
+name: nk_bloc_feature
+description: clean architecture for BloC
+
+version: 0.0.1+2
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  featureName:
+    type: string
+    description: your feature name
+    default: new_feature
+    prompt: what is your feature name?
+  useCubit:
+    type: boolean
+    description: use Cubit instead of BloC
+    default: true
+    prompt: use Cubit?

@@ -1,4 +1,4 @@
-# Flutter Riverpod feature
+# Flutter Riverpod Feature
 
 ## Getting Started 🚀
 
