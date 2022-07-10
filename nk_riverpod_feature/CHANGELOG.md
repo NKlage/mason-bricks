@@ -1,3 +1,7 @@
+# 0.0.2+4
+
+- added abstract datasource class
+
 # 0.0.1+3
 
 - fix folderstructure
