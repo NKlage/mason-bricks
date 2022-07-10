@@ -1,0 +1,13 @@
+name: nk_riverpod_feature
+description: clean architecture for flutter riverpod.
+
+version: 0.0.1+1
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  featureName:
+    type: string
+    description: your feature name
+    default: new_feature
+    prompt: what is your feature name?

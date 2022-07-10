@@ -1,0 +1,4 @@
+
+class {{featureName.pascalCase()}}Entity {
+  
+}
