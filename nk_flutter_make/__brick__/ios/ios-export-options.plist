@@ -1,0 +1,15 @@
+<key>compileBitcode</key>
+<true/>
+<key>method</key>
+<string>development</string>
+<key>provisioningProfiles</key>
+<dict>
+	<key>Bundle-Id</key>
+	<string>#Your BundleId#}}</string>
+</dict>
+<key>signingCertificate</key>
+<string>Certificate-Added-In-Keychain</string>
+<key>stripSwiftSymbols</key>
+<true/>
+<key>teamID</key>
+<string># Your TeamId #</string>
