@@ -1,12 +1,13 @@
 name: nk_riverpod_feature
 description: clean architecture for flutter riverpod.
+repository: https://github.com/NKlage/mason-bricks
+version: 0.0.3
 
-version: 0.0.2+4
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
 
 vars:
-  featureName:
+  feature_name:
     type: string
     description: your feature name
     default: new_feature
