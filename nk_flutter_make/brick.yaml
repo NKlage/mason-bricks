@@ -1,6 +1,6 @@
 name: nk_flutter_make
 description: Basic Makefile for Flutter builds
-
+repository: https://github.com/NKlage/mason-bricks
 version: 0.0.1+2
 
 environment:
