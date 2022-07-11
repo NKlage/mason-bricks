@@ -14,5 +14,7 @@ mason make nk_flutter_make
 
 ```
 --Your fancy app
+├── ios
+│   └── ios-export-options.plist
 ├── Makefile
 ```
