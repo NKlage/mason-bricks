@@ -3,7 +3,7 @@
 ## Getting Started 🚀
 
 ```
-mason make nk_riverpod_feature --feature_name auth
+mason make nk_riverpod_feature --feature_name auth --local_datasource true --fake_datasource true
 ```
 
 ## Variables ✨
@@ -11,6 +11,8 @@ mason make nk_riverpod_feature --feature_name auth
 | Variable       | Description             | Default | Type     |
 | -------------- | ----------------------- | ------- | -------- |
 | `feature_name` | The name of the feature | new_feature | `string` |
+| `local_datasource` | create local data source | false | `boolean` |
+| `fake_datasource` | create fake data source | false | `boolean` |
 
 ## Requirements 💞
 

@@ -1,7 +1,7 @@
 name: nk_riverpod_feature
-description: clean architecture for flutter riverpod.
+description: flutter riverpod feature first folder structure
 repository: https://github.com/NKlage/mason-bricks
-version: 0.0.3
+version: 0.0.4
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
@@ -12,3 +12,13 @@ vars:
     description: your feature name
     default: new_feature
     prompt: what is your feature name?
+  local_datasource:
+    type: boolean
+    description: create local DataSource
+    default: false
+    prompt: create local datasource?
+  fake_datasource:
+    type: boolean
+    description: Create fake DataSource
+    default: false
+    prompt: create fake datasource?

@@ -1,3 +1,7 @@
+# 0.0.4
+
+- added data source generation options
+
 # 0.0.3
 
 - refactoring
