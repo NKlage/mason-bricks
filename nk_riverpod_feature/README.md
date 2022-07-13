@@ -41,3 +41,22 @@ lib/features
     └── shared
         └── auth.providers.dart
 ```
+
+```
+test
+|____features
+| |____auth
+| | |____data
+| | | |____auth.repository.impl_test.dart
+| | | |____auth.local.datasource_test.dart
+| | | |____auth.fake.datasource_test.dart
+| | | |____auth.remote.datasource_test.dart
+| | |____domain
+| | | |____.gitkeep
+| | |____presentation
+| | | |____auth.page_test.dart
+| | | |____auth.controller_test.dart
+| | | |____widgets
+| | | | |____.gitkeep
+|____widget_test.dart
+```
