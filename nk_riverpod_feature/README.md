@@ -44,19 +44,17 @@ lib/features
 
 ```
 test
-|____features
-| |____auth
-| | |____data
-| | | |____auth.repository.impl_test.dart
-| | | |____auth.local.datasource_test.dart
-| | | |____auth.fake.datasource_test.dart
-| | | |____auth.remote.datasource_test.dart
-| | |____domain
-| | | |____.gitkeep
-| | |____presentation
-| | | |____auth.page_test.dart
-| | | |____auth.controller_test.dart
-| | | |____widgets
-| | | | |____.gitkeep
-|____widget_test.dart
+├── features
+│   └── auth
+│       ├── data
+│       │   ├── auth.fake.datasource_test.dart
+│       │   ├── auth.local.datasource_test.dart
+│       │   ├── auth.remote.datasource_test.dart
+│       │   └── auth.repository.impl_test.dart
+│       ├── domain
+│       └── presentation
+│           ├── auth.controller_test.dart
+│           ├── auth.page_test.dart
+│           └── widgets
+└── widget_test.dart
 ```
