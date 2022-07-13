@@ -1,6 +1,7 @@
 # 0.0.4
 
 - added data source generation options
+- generate feature tests
 
 # 0.0.3
 
