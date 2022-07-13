@@ -43,18 +43,16 @@ lib/features
 ```
 
 ```
-test
-├── features
-│   └── auth
-│       ├── data
-│       │   ├── auth.fake.datasource_test.dart
-│       │   ├── auth.local.datasource_test.dart
-│       │   ├── auth.remote.datasource_test.dart
-│       │   └── auth.repository.impl_test.dart
-│       ├── domain
-│       └── presentation
-│           ├── auth.controller_test.dart
-│           ├── auth.page_test.dart
-│           └── widgets
-└── widget_test.dart
+test/features
+└── auth
+    ├── data
+    │   ├── auth.fake.datasource_test.dart
+    │   ├── auth.local.datasource_test.dart
+    │   ├── auth.remote.datasource_test.dart
+    │   └── auth.repository.impl_test.dart
+    ├── domain
+    └── presentation
+        ├── auth.controller_test.dart
+        ├── auth.page_test.dart
+        └── widgets
 ```
