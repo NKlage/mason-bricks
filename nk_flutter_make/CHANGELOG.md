@@ -1,6 +1,6 @@
 # 0.0.1+3
 
-- fix: ios-options.plist
+- fix: ios-export-options.plist
 
 # 0.0.1+2
 
