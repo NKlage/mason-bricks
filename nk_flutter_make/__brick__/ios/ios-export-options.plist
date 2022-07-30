@@ -1,15 +1,22 @@
-<key>compileBitcode</key>
-<true/>
-<key>method</key>
-<string>development</string>
-<key>provisioningProfiles</key>
-<dict>
-	<key>Bundle-Id</key>
-	<string>#Your BundleId#}}</string>
-</dict>
-<key>signingCertificate</key>
-<string>Certificate-Added-In-Keychain</string>
-<key>stripSwiftSymbols</key>
-<true/>
-<key>teamID</key>
-<string># Your TeamId #</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>compileBitcode</key>
+		<true/>
+		<key>method</key>
+		<string>development</string>
+		<key>provisioningProfiles</key>
+		<dict>
+			<key>Bundle-Id</key>
+			<string># Your BundleId #</string>
+		</dict>
+		<key>signingCertificate</key>
+		<string>Certificate-Added-In-Keychain</string>
+		<key>stripSwiftSymbols</key>
+		<true/>
+		<key>teamID</key>
+		<string># Your TeamId #</string>
+
+	</dict>
+</plist>

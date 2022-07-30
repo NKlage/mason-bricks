@@ -1,3 +1,7 @@
+# 0.0.1+3
+
+- fix: ios-options.plist
+
 # 0.0.1+2
 
 - Brick documented
