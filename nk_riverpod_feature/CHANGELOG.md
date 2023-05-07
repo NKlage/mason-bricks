@@ -1,3 +1,7 @@
+# 0.0.6
+- added export files for layers
+- flutter_riverpod is added to post_gen hook as a dependency in pubspec.yaml
+
 # 0.0.5
 - test output documented in readme
 

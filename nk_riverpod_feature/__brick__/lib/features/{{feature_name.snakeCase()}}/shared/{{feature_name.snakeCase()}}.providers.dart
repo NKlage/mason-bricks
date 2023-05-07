@@ -1,13 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../data/{{feature_name.snakeCase()}}.datasource.dart';
-{{#fake_datasource}}import '../data/{{feature_name.snakeCase()}}.fake.datasource.dart';{{/fake_datasource}}
-{{#local_datasource}}import '../data/{{feature_name.snakeCase()}}.local.datasource.dart';{{/local_datasource}}
-import '../data/{{feature_name.snakeCase()}}.remote.datasource.dart';
-import '../data/{{feature_name.snakeCase()}}.repository.impl.dart';
-import '../domain/{{feature_name.snakeCase()}}.repository.dart';
-import '../presentation/{{feature_name.snakeCase()}}.controller.dart';
-
+import '../data.dart';
+import '../domain.dart';
+import '../presentation.dart';
 
 class {{feature_name.pascalCase()}}Providers {
   
