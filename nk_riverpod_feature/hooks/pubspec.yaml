@@ -4,3 +4,4 @@ environment:
 
 dependencies:
   mason: ">=0.1.0-dev.47 <0.1.0"
+  yaml: ^3.1.2
