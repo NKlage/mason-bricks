@@ -1,6 +1,4 @@
-
 import '{{feature_name.snakeCase()}}.datasource.dart';
 
-class {{feature_name.pascalCase()}}LocalDatasource implements {{feature_name.pascalCase()}}Datasource {
-  
-}
+/// Local [{{feature_name.pascalCase()}}Datasource] implementation
+class {{feature_name.pascalCase()}}LocalDatasource implements {{feature_name.pascalCase()}}Datasource {}

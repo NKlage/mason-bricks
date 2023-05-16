@@ -4,26 +4,32 @@ import '../data.dart';
 import '../domain.dart';
 import '../presentation.dart';
 
+/// {{feature_name.pascalCase()}} Feature Providers
 class {{feature_name.pascalCase()}}Providers {
   
   // Data
   {{#fake_datasource}}
-  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.lowerCase()}}FakeDatasource =
+  /// Fake Datasource
+  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.camelCase()}}FakeDatasource =
       Provider((ref) => {{feature_name.pascalCase()}}FakeDatasource());
   {{/fake_datasource}}
   {{#local_datasource}}
-  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.lowerCase()}}LocalDatasource =
+  /// Local Datasource
+  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.camelCase()}}LocalDatasource =
       Provider((ref) => {{feature_name.pascalCase()}}LocalDatasource());
   {{/local_datasource}}
-  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.lowerCase()}}RemoteDatasource =
+  /// Remote Datasource
+  static final Provider<{{feature_name.pascalCase()}}Datasource> {{feature_name.camelCase()}}RemoteDatasource =
       Provider((ref) => {{feature_name.pascalCase()}}RemoteDatasource());
 
   // Domain
-  static final Provider<{{feature_name.pascalCase()}}Repository> {{feature_name.lowerCase()}}Repository =
+  /// Repository
+  static final Provider<{{feature_name.pascalCase()}}Repository> {{feature_name.camelCase()}}Repository =
       Provider((ref) => {{feature_name.pascalCase()}}RepositoryImpl());
 
   // Presentation
-  static final Provider<{{feature_name.pascalCase()}}Controller> {{feature_name.lowerCase()}}Controller =
+  /// Controller
+  static final Provider<{{feature_name.pascalCase()}}Controller> {{feature_name.camelCase()}}Controller =
       Provider((ref) => {{feature_name.pascalCase()}}Controller());
 
 }

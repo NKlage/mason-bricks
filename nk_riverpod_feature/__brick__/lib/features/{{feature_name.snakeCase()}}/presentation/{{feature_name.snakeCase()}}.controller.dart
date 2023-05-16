@@ -1,4 +1,2 @@
-
-class {{feature_name.pascalCase()}}Controller {
-  
-}
+/// {{feature_name.pascalCase()}} Controller
+class {{feature_name.pascalCase()}}Controller {}
