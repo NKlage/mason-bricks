@@ -14,7 +14,7 @@ Future<void> run(HookContext context) async {
       return;
     } 
   } catch (e) {
-    print(e.toString());
+    context.logger.err('$e');
   }
 
   final progress = context.logger.progress('Installing $riverpodPackageName Package');
