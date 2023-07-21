@@ -21,38 +21,48 @@ mason make nk_riverpod_feature --feature_name auth --local_datasource true --fak
 ## Outputs 📦
 
 ```
-lib/features
-└── auth
-    ├── README.md
-    ├── data
-    │   ├── auth.datasource.dart
-    │   ├── auth.fake.datasource.dart
-    │   ├── auth.local.datasource.dart
-    │   ├── auth.remote.datasource.dart
-    │   ├── auth.repository.impl.dart
-    │   └── auth.response.dart
-    ├── domain
-    │   ├── auth.entity.dart
-    │   └── auth.repository.dart
-    ├── presentation
-    │   ├── auth.controller.dart
-    │   ├── auth.page.dart
-    │   └── widgets
-    └── shared
-        └── auth.providers.dart
+└── lib
+    └── features
+        └── auth
+            ├── README.md
+            ├── application
+            │   └── .gitkeep
+            ├── data
+            │   ├── auth.datasource.dart
+            │   ├── auth.remote.datasource.dart
+            │   ├── auth.repository.impl.dart
+            │   └── auth.response.dart
+            ├── data.dart
+            ├── domain
+            │   ├── auth.entity.dart
+            │   └── auth.repository.dart
+            ├── domain.dart
+            ├── presentation
+            │   ├── auth.controller.dart
+            │   ├── auth.page.dart
+            │   └── widgets
+            │       └── .gitkeep
+            ├── presentation.dart
+            ├── shared
+            │   └── auth.providers.dart
+            └── shared.dart
+
 ```
 
 ```
-test/features
-└── auth
-    ├── data
-    │   ├── auth.fake.datasource_test.dart
-    │   ├── auth.local.datasource_test.dart
-    │   ├── auth.remote.datasource_test.dart
-    │   └── auth.repository.impl_test.dart
-    ├── domain
-    └── presentation
-        ├── auth.controller_test.dart
-        ├── auth.page_test.dart
-        └── widgets
+└── test
+    └── features
+        └── auth
+            ├── application
+            │   └── .gitkeep
+            ├── data
+            │   ├── auth.remote.datasource_test.dart
+            │   └── auth.repository.impl_test.dart
+            ├── domain
+            │   └── .gitkeep
+            └── presentation
+                ├── auth.controller_test.dart
+                ├── auth.page_test.dart
+                └── widgets
+                    └── .gitkeep
 ```
