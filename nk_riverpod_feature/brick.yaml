@@ -1,10 +1,10 @@
 name: nk_riverpod_feature
 description: flutter riverpod feature first folder structure
 repository: https://github.com/NKlage/mason-bricks
-version: 0.0.7+1
+version: 0.0.8
 
 environment:
-  mason: ">=0.1.0-dev.26 <0.1.0"
+  mason: ">=0.1.0-dev.51 <0.1.0"
 
 vars:
   feature_name:
