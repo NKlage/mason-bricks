@@ -4,7 +4,7 @@ repository: https://github.com/NKlage/mason-bricks
 version: 0.0.9
 
 environment:
-  mason: ">=0.1.0-dev.51 <0.1.0"
+  mason: ^0.1.1
 
 vars:
   feature_name:
