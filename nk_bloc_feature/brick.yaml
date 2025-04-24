@@ -4,7 +4,7 @@ description: clean architecture for BloC
 version: 0.0.1+2
 
 environment:
-  mason: ">=0.1.0-dev.26 <0.1.0"
+  mason: ^0.1.1
 
 vars:
   featureName:
